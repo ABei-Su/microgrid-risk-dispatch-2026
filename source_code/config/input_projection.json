@@ -1,0 +1,141 @@
+[
+  {
+    "file": "data/actual_10min.csv",
+    "kept_columns": [
+      "date",
+      "interval_index",
+      "interval_start",
+      "load_kw",
+      "pv_actual_kw",
+      "price_actual_yuan_per_kwh",
+      "typical_price_yuan_per_kwh",
+      "load_kw_lag1d",
+      "load_kw_lag7d",
+      "pv_actual_kw_lag1d",
+      "pv_actual_kw_lag7d",
+      "price_actual_yuan_per_kwh_lag1d",
+      "price_actual_yuan_per_kwh_lag7d"
+    ],
+    "removed_columns": [
+      "interval_end",
+      "interval_label",
+      "typical_load_kw",
+      "typical_pv_kw",
+      "net_load_kw",
+      "load_kwh",
+      "pv_actual_kwh",
+      "net_load_kwh",
+      "weekday",
+      "month",
+      "day_of_year",
+      "time_sin",
+      "time_cos",
+      "load_kw_hist_mean7d",
+      "load_kw_hist_std7d",
+      "pv_actual_kw_hist_mean7d",
+      "pv_actual_kw_hist_std7d",
+      "price_actual_yuan_per_kwh_hist_mean7d",
+      "price_actual_yuan_per_kwh_hist_std7d",
+      "net_load_kw_lag1d",
+      "net_load_kw_lag7d",
+      "net_load_kw_hist_mean7d",
+      "net_load_kw_hist_std7d",
+      "pv_hist_max28d",
+      "has_7d_history",
+      "evaluation_role",
+      "static_fold"
+    ],
+    "rows": 52560,
+    "all_retained_cell_strings_identical": true
+  },
+  {
+    "file": "data/official_forecast_10min.csv",
+    "kept_columns": [
+      "issue_date",
+      "issue_time",
+      "issue_timestamp",
+      "target_timestamp",
+      "pv_forecast_kw"
+    ],
+    "removed_columns": [
+      "lead_step_10min",
+      "lead_minutes",
+      "interpolation_method",
+      "anchor_pv_kw"
+    ],
+    "rows": 210240,
+    "all_retained_cell_strings_identical": true
+  },
+  {
+    "file": "data/rolling_forecasts.csv",
+    "kept_columns": [
+      "date",
+      "interval_index",
+      "interval_start",
+      "load_q50",
+      "load_q90",
+      "pv_q10",
+      "pv_q50",
+      "price_q50",
+      "price_q90"
+    ],
+    "removed_columns": [
+      "load_kw",
+      "pv_actual_kw",
+      "price_actual_yuan_per_kwh",
+      "load_q10",
+      "pv_q90",
+      "price_q10"
+    ],
+    "rows": 48096,
+    "all_retained_cell_strings_identical": true
+  },
+  {
+    "file": "data/forecast_V2.csv",
+    "kept_columns": [
+      "date",
+      "interval_index",
+      "interval_start",
+      "load_q50",
+      "load_q90",
+      "pv_q10",
+      "pv_q50",
+      "price_q50",
+      "price_q90"
+    ],
+    "removed_columns": [
+      "load_kw",
+      "pv_actual_kw",
+      "price_actual_yuan_per_kwh",
+      "load_q10",
+      "pv_q90",
+      "price_q10"
+    ],
+    "rows": 48096,
+    "all_retained_cell_strings_identical": true
+  },
+  {
+    "file": "data/forecast_directNet.csv",
+    "kept_columns": [
+      "date",
+      "interval_index",
+      "interval_start",
+      "load_q50",
+      "load_q90",
+      "pv_q10",
+      "pv_q50",
+      "price_q50",
+      "price_q90"
+    ],
+    "removed_columns": [
+      "load_kw",
+      "pv_actual_kw",
+      "price_actual_yuan_per_kwh",
+      "load_q10",
+      "pv_q90",
+      "price_q10"
+    ],
+    "rows": 48096,
+    "all_retained_cell_strings_identical": true
+  }
+]

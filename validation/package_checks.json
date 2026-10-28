@@ -1,0 +1,41 @@
+{
+  "entry_one_day_comparison": [
+    {
+      "variant": "q2",
+      "seed": 1,
+      "date": "2025-02-01",
+      "max_difference": 0.0,
+      "passed": true
+    },
+    {
+      "variant": "q3",
+      "seed": 1,
+      "date": "2025-02-01",
+      "max_difference": 0.0,
+      "passed": true
+    },
+    {
+      "variant": "q4_2",
+      "seed": 1,
+      "date": "2025-02-01",
+      "max_difference": 0.0,
+      "passed": true
+    },
+    {
+      "variant": "q4_3",
+      "seed": 1,
+      "date": "2025-02-01",
+      "max_difference": 0.0,
+      "passed": true
+    }
+  ],
+  "fixed_reference_entry_pass": true,
+  "python_files": 19,
+  "source_hashes_pass": true,
+  "paper_sha256": "3b0888ea862845062543034a452e653641c20a7367e1f2df8a32080f71d2d992",
+  "paper_unchanged": true,
+  "csv_files": 121,
+  "csv_read_pass": true,
+  "anonymity_pass": true,
+  "personal_absolute_paths_found": 0
+}

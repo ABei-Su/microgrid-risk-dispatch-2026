@@ -1,0 +1,137 @@
+[
+  {
+    "file": "result1.xlsx",
+    "check": "official_sheet_names",
+    "pass": true
+  },
+  {
+    "file": "result1.xlsx",
+    "check": "all_144_plan_values",
+    "pass": true
+  },
+  {
+    "file": "result1.xlsx",
+    "check": "plan_total",
+    "pass": true
+  },
+  {
+    "file": "result2.xlsx",
+    "check": "official_sheet_names",
+    "pass": true
+  },
+  {
+    "file": "result2.xlsx",
+    "check": "计划购电量_all_48096_values",
+    "pass": true
+  },
+  {
+    "file": "result2.xlsx",
+    "check": "计划购电量_daily_totals",
+    "pass": true
+  },
+  {
+    "file": "result2.xlsx",
+    "check": "charge_discharge_334x6_rows",
+    "pass": true
+  },
+  {
+    "file": "result2.xlsx",
+    "check": "emergency_total",
+    "pass": true
+  },
+  {
+    "file": "result3.xlsx",
+    "check": "official_sheet_names",
+    "pass": true
+  },
+  {
+    "file": "result3.xlsx",
+    "check": "计划购电量_all_48096_values",
+    "pass": true
+  },
+  {
+    "file": "result3.xlsx",
+    "check": "计划购电量_daily_totals",
+    "pass": true
+  },
+  {
+    "file": "result3.xlsx",
+    "check": "调整购电量_all_48096_values",
+    "pass": true
+  },
+  {
+    "file": "result3.xlsx",
+    "check": "调整购电量_daily_totals",
+    "pass": true
+  },
+  {
+    "file": "result3.xlsx",
+    "check": "charge_discharge_334x6_rows",
+    "pass": true
+  },
+  {
+    "file": "result3.xlsx",
+    "check": "emergency_total",
+    "pass": true
+  },
+  {
+    "file": "result4-2.xlsx",
+    "check": "official_sheet_names",
+    "pass": true
+  },
+  {
+    "file": "result4-2.xlsx",
+    "check": "计划购电量_all_48096_values",
+    "pass": true
+  },
+  {
+    "file": "result4-2.xlsx",
+    "check": "计划购电量_daily_totals",
+    "pass": true
+  },
+  {
+    "file": "result4-2.xlsx",
+    "check": "charge_discharge_334x6_rows",
+    "pass": true
+  },
+  {
+    "file": "result4-2.xlsx",
+    "check": "emergency_total",
+    "pass": true
+  },
+  {
+    "file": "result4-3.xlsx",
+    "check": "official_sheet_names",
+    "pass": true
+  },
+  {
+    "file": "result4-3.xlsx",
+    "check": "计划购电量_all_48096_values",
+    "pass": true
+  },
+  {
+    "file": "result4-3.xlsx",
+    "check": "计划购电量_daily_totals",
+    "pass": true
+  },
+  {
+    "file": "result4-3.xlsx",
+    "check": "调整购电量_all_48096_values",
+    "pass": true
+  },
+  {
+    "file": "result4-3.xlsx",
+    "check": "调整购电量_daily_totals",
+    "pass": true
+  },
+  {
+    "file": "result4-3.xlsx",
+    "check": "charge_discharge_334x6_rows",
+    "pass": true
+  },
+  {
+    "file": "result4-3.xlsx",
+    "check": "emergency_total",
+    "pass": true
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "jobs": 35,
+  "replay_days": 11690,
+  "interval_rows": 1683360,
+  "blocks": 1890,
+  "historical_boundary_records": 30060,
+  "original_files_unchanged": 141,
+  "max_energy_balance_error_kwh": 1.0089706847793423e-12,
+  "max_soc_recursion_error_kwh": 4.774847184307873e-12,
+  "max_daily_settlement_error_yuan": 2.9103830456733704e-11,
+  "max_locked_baseline_difference": 0.0,
+  "max_fresh_rerun_difference": 0.0,
+  "q1_independent_solves": 1670,
+  "parsed_python": [
+    "active\\policies.py",
+    "active\\replay.py",
+    "active\\solver.py",
+    "tests\\test_core.py",
+    "check_delivery.py",
+    "finalize_v5.py",
+    "final_model.py",
+    "q1_validate.py",
+    "runtime.py",
+    "run_checked.py",
+    "run_experiments.py",
+    "run_q1_final.py",
+    "run_q3_exact.py",
+    "verify_all.py"
+  ],
+  "failures": []
+}

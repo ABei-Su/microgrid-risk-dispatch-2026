@@ -1,0 +1,597 @@
+[
+  {
+    "file": "code/data/actual_10min.csv",
+    "rows": 52560,
+    "columns": 13
+  },
+  {
+    "file": "code/data/forecast_directNet.csv",
+    "rows": 48096,
+    "columns": 9
+  },
+  {
+    "file": "code/data/forecast_V2.csv",
+    "rows": 48096,
+    "columns": 9
+  },
+  {
+    "file": "code/data/official_forecast_10min.csv",
+    "rows": 210240,
+    "columns": 5
+  },
+  {
+    "file": "code/data/rolling_forecasts.csv",
+    "rows": 48096,
+    "columns": 9
+  },
+  {
+    "file": "code/data/typical_day.csv",
+    "rows": 144,
+    "columns": 9
+  },
+  {
+    "file": "figures/data/q2_daily_summary.csv",
+    "rows": 334,
+    "columns": 14
+  },
+  {
+    "file": "figures/data/q2_interval_results.csv",
+    "rows": 48096,
+    "columns": 19
+  },
+  {
+    "file": "figures/data/q2_update_log.csv",
+    "rows": 0,
+    "columns": 10
+  },
+  {
+    "file": "figures/data/q3_daily_summary.csv",
+    "rows": 334,
+    "columns": 14
+  },
+  {
+    "file": "figures/data/q3_interval_results.csv",
+    "rows": 48096,
+    "columns": 19
+  },
+  {
+    "file": "figures/data/q3_update_log.csv",
+    "rows": 5010,
+    "columns": 10
+  },
+  {
+    "file": "figures/data/q4_2_daily_summary.csv",
+    "rows": 334,
+    "columns": 14
+  },
+  {
+    "file": "figures/data/q4_2_interval_results.csv",
+    "rows": 48096,
+    "columns": 19
+  },
+  {
+    "file": "figures/data/q4_2_update_log.csv",
+    "rows": 0,
+    "columns": 10
+  },
+  {
+    "file": "figures/data/q4_3_daily_summary.csv",
+    "rows": 334,
+    "columns": 14
+  },
+  {
+    "file": "figures/data/q4_3_interval_results.csv",
+    "rows": 48096,
+    "columns": 19
+  },
+  {
+    "file": "figures/data/q4_3_update_log.csv",
+    "rows": 5010,
+    "columns": 10
+  },
+  {
+    "file": "results/Q1/Q1_final_result.csv",
+    "rows": 1670,
+    "columns": 10
+  },
+  {
+    "file": "results/Q1/Q1_final_trajectories.csv",
+    "rows": 720,
+    "columns": 7
+  },
+  {
+    "file": "results/Q1/Q1_summary.csv",
+    "rows": 1,
+    "columns": 4
+  },
+  {
+    "file": "results/Q2/Q2_final_result.csv",
+    "rows": 5,
+    "columns": 33
+  },
+  {
+    "file": "results/Q2/Q2_scenario_coverage.csv",
+    "rows": 3340,
+    "columns": 22
+  },
+  {
+    "file": "results/Q3/Q3_final_result.csv",
+    "rows": 5,
+    "columns": 33
+  },
+  {
+    "file": "results/Q3/Q3_gate_representative_days.csv",
+    "rows": 20,
+    "columns": 12
+  },
+  {
+    "file": "results/Q3/Q3_paired_daily.csv",
+    "rows": 1670,
+    "columns": 6
+  },
+  {
+    "file": "results/Q3/Q3_paired_summary.csv",
+    "rows": 5,
+    "columns": 10
+  },
+  {
+    "file": "results/Q4/Q4_day_ahead_final_result.csv",
+    "rows": 5,
+    "columns": 33
+  },
+  {
+    "file": "results/Q4/Q4_day_ahead_stability.csv",
+    "rows": 5,
+    "columns": 34
+  },
+  {
+    "file": "results/Q4/Q4_intraday_final_result.csv",
+    "rows": 5,
+    "columns": 33
+  },
+  {
+    "file": "results/Q4/v5_q4_waterfall.csv",
+    "rows": 5,
+    "columns": 2
+  },
+  {
+    "file": "results/validation/final_results.csv",
+    "rows": 20,
+    "columns": 33
+  },
+  {
+    "file": "results/validation/five_seed_statistics.csv",
+    "rows": 35,
+    "columns": 8
+  },
+  {
+    "file": "results/validation/paired_policy_comparisons.csv",
+    "rows": 35,
+    "columns": 29
+  },
+  {
+    "file": "results/validation/Q2_Q4_scenario_audit.csv",
+    "rows": 15,
+    "columns": 12
+  },
+  {
+    "file": "results/validation/Q2_Q4_validation.csv",
+    "rows": 15,
+    "columns": 15
+  },
+  {
+    "file": "results/validation/v5_ablation_sensitivity.csv",
+    "rows": 76,
+    "columns": 14
+  },
+  {
+    "file": "results/validation/v5_cost_bridge_by_seed.csv",
+    "rows": 25,
+    "columns": 3
+  },
+  {
+    "file": "results/validation/v5_oracle_summary.csv",
+    "rows": 20,
+    "columns": 7
+  },
+  {
+    "file": "results/validation/v5_risk_pareto.csv",
+    "rows": 30,
+    "columns": 4
+  },
+  {
+    "file": "results/validation/v5_scenario_convergence.csv",
+    "rows": 42,
+    "columns": 7
+  },
+  {
+    "file": "results/validation/v5_simple_baselines.csv",
+    "rows": 668,
+    "columns": 4
+  },
+  {
+    "file": "results/validation/v5_soc_shadow.csv",
+    "rows": 80,
+    "columns": 6
+  },
+  {
+    "file": "results/validation/v5_voi_counterfactual.csv",
+    "rows": 12,
+    "columns": 8
+  },
+  {
+    "file": "results/Q2/q2_seed1/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q2/q2_seed1/events.csv",
+    "rows": 0,
+    "columns": 7
+  },
+  {
+    "file": "results/Q2/q2_seed1/solver.csv",
+    "rows": 334,
+    "columns": 6
+  },
+  {
+    "file": "results/Q2/q2_seed2/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q2/q2_seed2/events.csv",
+    "rows": 0,
+    "columns": 7
+  },
+  {
+    "file": "results/Q2/q2_seed2/solver.csv",
+    "rows": 334,
+    "columns": 6
+  },
+  {
+    "file": "results/Q2/q2_seed3/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q2/q2_seed3/events.csv",
+    "rows": 0,
+    "columns": 7
+  },
+  {
+    "file": "results/Q2/q2_seed3/solver.csv",
+    "rows": 334,
+    "columns": 6
+  },
+  {
+    "file": "results/Q2/q2_seed4/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q2/q2_seed4/events.csv",
+    "rows": 0,
+    "columns": 7
+  },
+  {
+    "file": "results/Q2/q2_seed4/solver.csv",
+    "rows": 334,
+    "columns": 6
+  },
+  {
+    "file": "results/Q2/q2_seed5/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q2/q2_seed5/events.csv",
+    "rows": 0,
+    "columns": 7
+  },
+  {
+    "file": "results/Q2/q2_seed5/solver.csv",
+    "rows": 334,
+    "columns": 6
+  },
+  {
+    "file": "results/Q3/fixed_reference_seed1/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q3/fixed_reference_seed1/events.csv",
+    "rows": 1002,
+    "columns": 7
+  },
+  {
+    "file": "results/Q3/fixed_reference_seed1/solver.csv",
+    "rows": 1336,
+    "columns": 6
+  },
+  {
+    "file": "results/Q3/fixed_reference_seed2/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q3/fixed_reference_seed2/events.csv",
+    "rows": 1002,
+    "columns": 7
+  },
+  {
+    "file": "results/Q3/fixed_reference_seed2/solver.csv",
+    "rows": 1336,
+    "columns": 6
+  },
+  {
+    "file": "results/Q3/fixed_reference_seed3/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q3/fixed_reference_seed3/events.csv",
+    "rows": 1002,
+    "columns": 7
+  },
+  {
+    "file": "results/Q3/fixed_reference_seed3/solver.csv",
+    "rows": 1336,
+    "columns": 6
+  },
+  {
+    "file": "results/Q3/fixed_reference_seed4/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q3/fixed_reference_seed4/events.csv",
+    "rows": 1002,
+    "columns": 7
+  },
+  {
+    "file": "results/Q3/fixed_reference_seed4/solver.csv",
+    "rows": 1336,
+    "columns": 6
+  },
+  {
+    "file": "results/Q3/fixed_reference_seed5/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q3/fixed_reference_seed5/events.csv",
+    "rows": 1002,
+    "columns": 7
+  },
+  {
+    "file": "results/Q3/fixed_reference_seed5/solver.csv",
+    "rows": 1336,
+    "columns": 6
+  },
+  {
+    "file": "results/Q3/q3_seed1/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q3/q3_seed1/events.csv",
+    "rows": 1002,
+    "columns": 7
+  },
+  {
+    "file": "results/Q3/q3_seed1/solver.csv",
+    "rows": 1336,
+    "columns": 6
+  },
+  {
+    "file": "results/Q3/q3_seed2/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q3/q3_seed2/events.csv",
+    "rows": 1002,
+    "columns": 7
+  },
+  {
+    "file": "results/Q3/q3_seed2/solver.csv",
+    "rows": 1336,
+    "columns": 6
+  },
+  {
+    "file": "results/Q3/q3_seed3/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q3/q3_seed3/events.csv",
+    "rows": 1002,
+    "columns": 7
+  },
+  {
+    "file": "results/Q3/q3_seed3/solver.csv",
+    "rows": 1336,
+    "columns": 6
+  },
+  {
+    "file": "results/Q3/q3_seed4/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q3/q3_seed4/events.csv",
+    "rows": 1002,
+    "columns": 7
+  },
+  {
+    "file": "results/Q3/q3_seed4/solver.csv",
+    "rows": 1336,
+    "columns": 6
+  },
+  {
+    "file": "results/Q3/q3_seed5/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q3/q3_seed5/events.csv",
+    "rows": 1002,
+    "columns": 7
+  },
+  {
+    "file": "results/Q3/q3_seed5/solver.csv",
+    "rows": 1336,
+    "columns": 6
+  },
+  {
+    "file": "results/Q4/q4_2_seed1/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q4/q4_2_seed1/events.csv",
+    "rows": 334,
+    "columns": 7
+  },
+  {
+    "file": "results/Q4/q4_2_seed1/solver.csv",
+    "rows": 668,
+    "columns": 6
+  },
+  {
+    "file": "results/Q4/q4_2_seed2/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q4/q4_2_seed2/events.csv",
+    "rows": 334,
+    "columns": 7
+  },
+  {
+    "file": "results/Q4/q4_2_seed2/solver.csv",
+    "rows": 668,
+    "columns": 6
+  },
+  {
+    "file": "results/Q4/q4_2_seed3/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q4/q4_2_seed3/events.csv",
+    "rows": 334,
+    "columns": 7
+  },
+  {
+    "file": "results/Q4/q4_2_seed3/solver.csv",
+    "rows": 668,
+    "columns": 6
+  },
+  {
+    "file": "results/Q4/q4_2_seed4/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q4/q4_2_seed4/events.csv",
+    "rows": 334,
+    "columns": 7
+  },
+  {
+    "file": "results/Q4/q4_2_seed4/solver.csv",
+    "rows": 668,
+    "columns": 6
+  },
+  {
+    "file": "results/Q4/q4_2_seed5/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q4/q4_2_seed5/events.csv",
+    "rows": 334,
+    "columns": 7
+  },
+  {
+    "file": "results/Q4/q4_2_seed5/solver.csv",
+    "rows": 668,
+    "columns": 6
+  },
+  {
+    "file": "results/Q4/q4_3_seed1/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q4/q4_3_seed1/events.csv",
+    "rows": 1002,
+    "columns": 7
+  },
+  {
+    "file": "results/Q4/q4_3_seed1/solver.csv",
+    "rows": 1336,
+    "columns": 6
+  },
+  {
+    "file": "results/Q4/q4_3_seed2/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q4/q4_3_seed2/events.csv",
+    "rows": 1002,
+    "columns": 7
+  },
+  {
+    "file": "results/Q4/q4_3_seed2/solver.csv",
+    "rows": 1336,
+    "columns": 6
+  },
+  {
+    "file": "results/Q4/q4_3_seed3/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q4/q4_3_seed3/events.csv",
+    "rows": 1002,
+    "columns": 7
+  },
+  {
+    "file": "results/Q4/q4_3_seed3/solver.csv",
+    "rows": 1336,
+    "columns": 6
+  },
+  {
+    "file": "results/Q4/q4_3_seed4/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q4/q4_3_seed4/events.csv",
+    "rows": 1002,
+    "columns": 7
+  },
+  {
+    "file": "results/Q4/q4_3_seed4/solver.csv",
+    "rows": 1336,
+    "columns": 6
+  },
+  {
+    "file": "results/Q4/q4_3_seed5/daily.csv",
+    "rows": 334,
+    "columns": 11
+  },
+  {
+    "file": "results/Q4/q4_3_seed5/events.csv",
+    "rows": 1002,
+    "columns": 7
+  },
+  {
+    "file": "results/Q4/q4_3_seed5/solver.csv",
+    "rows": 1336,
+    "columns": 6
+  }
+]

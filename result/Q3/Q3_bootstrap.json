@@ -1,0 +1,33 @@
+{
+  "method": "noncircular moving-block bootstrap; synchronized calendar blocks across model seeds; conditional on five seeds",
+  "block_days": 7,
+  "repetitions": 10000,
+  "bootstrap_seed": 20260912,
+  "annual_mean_gain": 188630.68139539898,
+  "mean_gain_ci95": [
+    137487.1461786639,
+    253241.59881274027
+  ],
+  "per_seed_ci95": {
+    "1": [
+      103349.43333791409,
+      262658.7599133619
+    ],
+    "2": [
+      151163.58154891487,
+      300977.4307833139
+    ],
+    "3": [
+      114979.06183253095,
+      284209.3725112281
+    ],
+    "4": [
+      115236.405097565,
+      264426.80784436263
+    ],
+    "5": [
+      112585.0514179816,
+      247644.23913090795
+    ]
+  }
+}

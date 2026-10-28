@@ -1,0 +1,48 @@
+{
+  "period": [
+    "2025-02-01",
+    "2025-12-31"
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "baseline_seed": 42,
+  "scenario_counts": [
+    10,
+    20,
+    50,
+    100
+  ],
+  "workers": 15,
+  "solver_threads": 1,
+  "checkpoint_days": 7,
+  "gate_noise_fraction": 0.1,
+  "gate_marginal_fraction": 0.02,
+  "gate_soc_fraction": 0.01,
+  "cluster_pool": 50,
+  "cluster_representatives": 10,
+  "score_weights": {
+    "cost": 0.4,
+    "emergency": 0.25,
+    "cvar": 0.2,
+    "complexity": 0.15
+  },
+  "complexity_units": {
+    "baseline": 1.0,
+    "joint_10": 1.1,
+    "joint_20": 1.15,
+    "joint_50": 1.25,
+    "joint_100": 1.35,
+    "stratified_20": 1.2,
+    "dynamic": 1.2,
+    "marginal": 1.25,
+    "soc_value": 1.2,
+    "adaptive_risk": 1.2,
+    "cluster": 1.35
+  },
+  "selection": "minimize weighted ratios to paired baseline; require mean improvement and no mean emergency/CVaR deterioration; report seed variability and paired seven-day block intervals; never deploy automatically"
+}

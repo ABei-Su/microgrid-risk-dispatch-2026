@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "annual_rows": 20,
+  "days_per_seed": 334,
+  "bootstrap_ci95": [
+    137487.14617866397,
+    253241.5988127403
+  ],
+  "verify_only_exit": 0,
+  "smoke_with_reference_exit": 0,
+  "full_year_resolved_this_round": false
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "annual_rows": 20,
+  "days_per_seed": 334,
+  "bootstrap_ci95": [
+    137487.14617866397,
+    253241.5988127403
+  ]
+}

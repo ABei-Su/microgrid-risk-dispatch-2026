@@ -1,0 +1,15 @@
+{
+  "pages_before": 34,
+  "pages_after": 98,
+  "appendix_pages": 67,
+  "added_pages": 64,
+  "python_files": 21,
+  "python_lines": 1468,
+  "config_files": 9,
+  "body_31_pages_pixel_identical": true,
+  "docx_source_text_match": true,
+  "pdf_source_text_missing": [],
+  "margin_violations": [],
+  "docx_bytes": 6602097,
+  "pdf_bytes": 3498549
+}
